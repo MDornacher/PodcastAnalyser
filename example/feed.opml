@@ -10,46 +10,29 @@
     <outline text="99% Invisible" type="rss" xmlUrl="http://feeds.99percentinvisible.org/99percentinvisible" htmlUrl="http://99percentinvisible.org" />
     <outline text="Accidental Tech Podcast" type="rss" xmlUrl="http://atp.fm/episodes?format=rss" htmlUrl="http://atp.fm/" />
     <outline text="Babbage from Economist Radio" type="rss" xmlUrl="https://rss.acast.com/theeconomistbabbage" htmlUrl="https://www.economist.com/" />
-    <outline text="Better Call Saul Insider Podcast" type="rss" xmlUrl="http://movietouch.sony.com.edgesuite.net/podcasts/better_call_saul_v1/better_call_saul_insider_podcast.xml" htmlUrl="http://blogs.amctv.com/better-call-saul/podcasts/" />
     <outline text="Corridor Cast" type="rss" xmlUrl="http://corridorcast.libsyn.com/rss" htmlUrl="http://corridorcast.libsyn.com/website" />
     <outline text="Cortex" type="rss" xmlUrl="https://www.relay.fm/cortex/feed" htmlUrl="https://www.relay.fm/cortex" />
-    <outline text="CrowdScience" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p04d42rc.rss" htmlUrl="http://www.bbc.co.uk/programmes/p04d42rc" />
-    <outline text="Editor's picks from The Economist" type="rss" xmlUrl="https://rss.acast.com/theeconomisteditorspicks" htmlUrl="http://www.economist.com" />
     <outline text="Embedded" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510311" htmlUrl="https://www.npr.org/series/469833353/embedded" />
-    <outline text="FALTER Radio" type="rss" xmlUrl="http://falter-radio.libsyn.com/rss" htmlUrl="https://falter.at/radio" />
     <outline text="Freakonomics Radio" type="rss" xmlUrl="https://rss.art19.com/freakonomics-radio" htmlUrl="http://freakonomics.com/" />
-    <outline text="Heavyweight" type="rss" xmlUrl="http://feeds.gimletmedia.com/heavyweightpodcast" htmlUrl="https://gimletmedia.com/show/heavyweight/" />
     <outline text="Hello Internet" type="rss" xmlUrl="http://www.hellointernet.fm/podcast?format=rss" htmlUrl="http://www.hellointernet.fm/" />
-    <outline text="Invisibilia" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510307" htmlUrl="https://www.npr.org/programs/invisibilia" />
     <outline text="IRL - Online Life Is Real Life" type="rss" xmlUrl="https://feeds.mozilla-podcasts.org/irl" htmlUrl="https://irlpodcast.org/" />
-    <outline text="Money talks from Economist Radio" type="rss" xmlUrl="https://rss.acast.com/theeconomistmoneytalks" htmlUrl="https://www.economist.com/" />
     <outline text="More or Less: Behind the Stats" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p02nrss1.rss" htmlUrl="http://www.bbc.co.uk/programmes/p02nrss1" />
     <outline text="No Dumb Questions" type="rss" xmlUrl="http://nodumbqs.libsyn.com/rss" htmlUrl="http://nodumbquestions.fm" />
-    <outline text="Ö1 Journale" type="rss" xmlUrl="http://static.orf.at/podcast/oe1/oe1_journale.xml" htmlUrl="https://oe1.orf.at/podcast/" />
-    <outline text="Ö1 Wissen aktuell" type="rss" xmlUrl="http://static.orf.at/podcast/oe1/oe1_wissen.xml" htmlUrl="https://oe1.orf.at/podcast/" />
     <outline text="Planet Money" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510289" htmlUrl="https://www.npr.org/planetmoney" />
     <outline text="Radiolab" type="rss" xmlUrl="http://feeds.wnyc.org/radiolab" htmlUrl="https://www.wnycstudios.org/shows/radiolab/projects/podcasts" />
     <outline text="Reasonably Sound" type="rss" xmlUrl="http://feeds.feedburner.com/ReasonablySound" htmlUrl="http://www.reasonablysound.com" />
     <outline text="Reply All" type="rss" xmlUrl="http://feeds.gimletmedia.com/hearreplyall" htmlUrl="http://gimletmedia.com/shows/reply-all" />
     <outline text="Rooster Teeth Podcast" type="rss" xmlUrl="https://www.roosterteeth.com/show/rt-podcast/feed/mp3" htmlUrl="https://www.roosterteeth.com/show/rt-podcast" />
     <outline text="Rough Translation" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510324" htmlUrl="" />
-    <outline text="Science Vs" type="rss" xmlUrl="http://feeds.gimletmedia.com/sciencevs" htmlUrl="https://gimletmedia.com/science-vs/" />
-    <outline text="Serial" type="rss" xmlUrl="http://feeds.serialpodcast.org/serialpodcast" htmlUrl="https://serialpodcast.org" />
-    <outline text="StartUp Podcast" type="rss" xmlUrl="http://feeds.hearstartup.com/hearstartup" htmlUrl="https://www.gimletmedia.com/startup" />
     <outline text="The Constant: A History of Getting Things Wrong" type="rss" xmlUrl="https://feeds.blubrry.com/feeds/the_constant.xml" htmlUrl="https://www.constantpodcast.com" />
     <outline text="The Economist asks" type="rss" xmlUrl="https://rss.acast.com/theeconomistasks" htmlUrl="https://www.economist.com/" />
     <outline text="The Indicator from Planet Money" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510325" htmlUrl="https://www.npr.org/sections/money/567724614/the-indicator" />
     <outline text="The Inquiry" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p029399x.rss" htmlUrl="http://www.bbc.co.uk/programmes/p029399x" />
     <outline text="The Intelligence" type="rss" xmlUrl="https://rss.acast.com/theintelligencepodcast" htmlUrl="https://theintelligence.economist.com" />
     <outline text="The Numberphile Podcast" type="rss" xmlUrl="https://www.numberphile.com/podcast?format=rss" htmlUrl="https://www.numberphile.com/podcast/" />
-    <outline text="The Secret History of the Future" type="rss" xmlUrl="https://feeds.megaphone.fm/historyofthefuture" htmlUrl="slate.com" />
     <outline text="The Unmade Podcast" type="rss" xmlUrl="https://www.unmade.fm/episodes?format=rss" htmlUrl="https://www.unmade.fm/" />
-    <outline text="The world ahead from Economist Radio" type="rss" xmlUrl="http://rss.acast.com/theworldahead" htmlUrl="https://www.economist.com/" />
     <outline text="This American Life" type="rss" xmlUrl="http://feed.thisamericanlife.org/talpodcast" htmlUrl="https://www.thisamericanlife.org" />
     <outline text="Twenty Thousand Hertz" type="rss" xmlUrl="http://feeds.megaphone.fm/20k" htmlUrl="http://www.20k.org" />
     <outline text="Up First" type="rss" xmlUrl="https://www.npr.org/rss/podcast.php?id=510318" htmlUrl="http://www.npr.org/programs/morning-edition/" />
-    <outline text="What Trump Can Teach Us About Con Law" type="rss" xmlUrl="http://feeds.trumpconlaw.com/TrumpConLaw?format=xml" htmlUrl="http://trumpconlaw.com" />
-    <outline text="Without Fail" type="rss" xmlUrl="https://feeds.megaphone.fm/withoutfail" htmlUrl="https://www.gimletmedia.com/without-fail" />
-    <outline text="Zeit für Wissenschaft" type="rss" xmlUrl="https://www2.uibk.ac.at/downloads/c115/zeit/zeit_mp3.xml" htmlUrl="http://www.uibk.ac.at/podcast/zeit" />
   </body>
 </opml>

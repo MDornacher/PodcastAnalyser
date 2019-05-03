@@ -72,10 +72,10 @@ if __name__ == "__main__":
                 new_episode = MyEpisode(weekday, day, month, year, str(duration))
                 podcast_list[-1].add_episode(new_episode)
         bottom_margin = [weekday_time_total[i] - weekday_time[i] for i in range(len(weekday_time))]
-        plt.bar(x, weekday_time, align='center', bottom=bottom_margin, label=podcast.title)
-
+        plt.bar(x, weekday_time, align="center", bottom=bottom_margin, label=podcast.title)
     plt.xticks(x, weekday_order.keys())
-    plt.title("Weekly Podcast Consumption\nAverage Total per Week: %d h, per Day: %d h" % (sum(weekday_time_total), sum(weekday_time_total) / 7.))
+    plt.hlines(y=range(0, int(max(weekday_time_total)), 60), xmin=-0.5, xmax=6.5, color="k", LineStyle = ':', alpha=0.3)
+    plt.title("Weekly Podcast Consumption\nAverage Total per Week: %d min, per Day: %d min" % (sum(weekday_time_total), sum(weekday_time_total) / 7.))
     # TODO: make labels on hover appear
     # mplcursors.cursor(hover=True)
 
