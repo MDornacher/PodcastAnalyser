@@ -1,3 +1,4 @@
+import argparse
 import datetime
 import opml
 import requests
@@ -24,14 +25,21 @@ def get_duration_in_seconds(duration):
 
 
 if __name__ == "__main__":
-    outline = opml.parse("feed.opml")
-    f = open("output_filtered", "w")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("-i", "--opml", help="Path to opml file")
+    ap.add_argument("-w", "--weeks", help="Number of weeks to average")
+    args = vars(ap.parse_args())
 
-    week_margin = 4.
+    if args["opml"] and args["weeks"]:
+        outline = opml.parse(args["opml"])
+        week_margin = float(args["weeks"])
+    else:
+        print("The following arguments are required: -i/--opml, -w/--weeks")
+        exit()
 
     weekday_time_total = [0] * 7
     weekday_order = {"Mon": 0, "Tue": 1, "Wed": 2, "Thu": 3, "Fri": 4, "Sat": 5, "Sun": 6}
-    x = range(7)
+    x = range(len(weekday_order))
 
     podcast_list = []
     for shows in outline:
@@ -41,7 +49,6 @@ if __name__ == "__main__":
 
         podcast_list.append(MyPodcast(podcast.title))
         print(podcast.title)
-        f.write("%s\n" % podcast.title)
 
         weekday_time = [0] * 7
 
@@ -64,13 +71,11 @@ if __name__ == "__main__":
 
                 new_episode = MyEpisode(weekday, day, month, year, str(duration))
                 podcast_list[-1].add_episode(new_episode)
-                f.write("%s %s\n" % (weekday, duration))
-
         bottom_margin = [weekday_time_total[i] - weekday_time[i] for i in range(len(weekday_time))]
         plt.bar(x, weekday_time, align='center', bottom=bottom_margin, label=podcast.title)
 
     plt.xticks(x, weekday_order.keys())
-    plt.title("Weekly Podcast Consumption\nAverage Total per Week: %d, per Day: %d" % (sum(weekday_time_total), sum(weekday_time_total) / 7.))
+    plt.title("Weekly Podcast Consumption\nAverage Total per Week: %d h, per Day: %d h" % (sum(weekday_time_total), sum(weekday_time_total) / 7.))
     # TODO: make labels on hover appear
     # mplcursors.cursor(hover=True)
 
