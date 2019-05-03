@@ -1,9 +1,9 @@
 # Podcast Analyser
 
-Calculate and plot daily podcast duration of feed.
+Calculate and plot daily episode duration of podcast feed.
 
 ## Packages
-
+The following packages are needed:
 ```
 argparse
 datetime
@@ -16,16 +16,14 @@ requests
 ## Usage
 
 Export your subscriptions as opml file from your podcast app and run:
-```
-python podaliser.py -i [opml file] -w [int of weeks to averge]
-```
+
+`python podaliser.py -i [opml file] -w [number of weeks to averge]`
 
 ## Output
 
 Example output with 
-```
-python podaliser.py -i example/feed.opml -w 4
-```
+
+`python podaliser.py -i example/feed.opml -w 4`
 
 ![Example output](example/figure.png?raw=true "Example output")
 
