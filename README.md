@@ -17,7 +17,7 @@ requests
 
 Export your subscriptions as opml file from your podcast app and run:
 
-`python podaliser.py -i [opml file] -w [number of weeks to averge]`
+`python podaliser.py -i [opml file] -w [number of weeks to average]`
 
 ## Output
 
